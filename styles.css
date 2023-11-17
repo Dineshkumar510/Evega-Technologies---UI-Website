@@ -11,6 +11,15 @@
     margin: 0 10px !important
 }
 
+.side-back{
+  margin-left: 1.2rem;
+}
+
+.nav-phone{
+  display: flex;
+  color: #fff;
+}
+
 a.active, .nav-link:active{
     transition: 5ms;
     font-weight: 700;
@@ -22,7 +31,7 @@ a.active, .nav-link:active{
 }
 
 .navbar-brand i{
-    font-size: 25px;
+    font-size: 34px;
     font-weight: bold;
 }
 
@@ -177,6 +186,12 @@ a.active, .nav-link:active{
     font-weight: 500;
   }
 
+  .side{
+    width: 80%;
+    line-height: 1.1;
+    margin-top: 6px;
+  }
+
   .elements{
     display: flex;
     justify-content: space-around;
@@ -223,7 +238,7 @@ a.active, .nav-link:active{
 
   .sendForm{
     background-color: #8EC63F;
-    height: 21rem;
+    height: 22rem;
   }
 
   .main-captions{
@@ -233,6 +248,12 @@ a.active, .nav-link:active{
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
+  }
+
+  .line{
+    width: 60px; 
+    background-color: #678E19; 
+    height: 2px;
   }
 
   /* ==========Input Form =============*/
@@ -286,3 +307,107 @@ a.active, .nav-link:active{
     line-height: 1.2;
   }
 
+  .contents{
+    margin-bottom: 3rem;
+  }
+
+  .star{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #FEBD19;
+    position: absolute;
+    top: 218%;
+}
+
+.footer-line{
+  border-right: 2px solid #83B935;
+  line-height: 1.2;
+  height: fit-content;
+}
+
+  .box-design{
+    width: 100%;
+    height: 15.5rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: #F2F2F2;
+}
+
+.sub-side{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.layout{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.link-read{
+  color: #93C94E !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.black-icon{
+  color: #000;
+}
+
+.corporate-logo{
+  margin-top: 6rem;
+  font-size: 1.7rem;
+}
+
+/****Five star Point****/
+
+.five-pointed-star {
+  --star-color: #EF4136;
+  margin:1.4em auto;
+  font-size:1.5em;
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-right: 1em solid transparent;
+  border-bottom: 0.7em solid var(--star-color);
+  border-left: 1em solid transparent;
+  transform: rotate(35deg);
+ }
+ .five-pointed-star:before {
+  border-bottom: 0.8em solid var(--star-color);
+  border-left: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -0.45em;
+  left: -0.65em;
+  display: block;
+  content:"";
+  transform: rotate(-35deg);
+ }
+ .five-pointed-star:after {
+  position: absolute;
+  display: block;
+  top: 0.03em;
+  left: -1.05em;
+  width: 0;
+  height: 0;
+  border-right: 1em solid transparent;
+  border-bottom: 0.7em solid var(--star-color);
+  border-left: 1em solid transparent;
+  transform: rotate(-70deg);
+  content:"";
+ }
+
+ /****Five star Point****/
+ 
